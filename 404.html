@@ -4,7 +4,13 @@
     <title>Redirecting...</title>
     <link rel="canonical" href="https://azimuth-config.readthedocs.io" />
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=https://azimuth-config.readthedocs.io" />
+    <noscript>
+      <meta http-equiv="refresh" content="0; url=https://azimuth-config.readthedocs.io" />
+    </noscript>
+    <script type="text/javascript">
+      const newPath = window.location.pathname.replace("azimuth-config", "en/stable");
+      window.location.assign("https://azimuth-config.readthedocs.io" + newPath);
+    </script>
   </head>
   <body>
     <p>Redirecting...</p>
